@@ -32,7 +32,7 @@ Official documentation is well made [https://docs.docker.com/engine/install/](ht
 
 Make a new directory, and copy into it the 3 files from Docker-For-Django-Starter-Files. You structure should be :
 
-* MyDirectory
+* NewDirectory
  
   * Dockerfile
   * docker-compose.yml
@@ -69,7 +69,7 @@ Clone a repo from Github or use an existing local project.
 From my Docker-For-Django-Starter-Files repo, copy the Dockerfile and docker-compose.yml into your project folder, at manage.py level.
 It sould look like this :
 
-* Myprojectname
+* myprojectname
   * myprojectname  
   * app1
   * app2
