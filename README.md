@@ -19,5 +19,35 @@ Official documentation is well made [https://docs.docker.com/engine/install/](ht
 - If operating on Windows, make sure to have WLS2 installed ( a prompt will let you know in due time, otherwise [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package) )
 - If operating on linux make sur to install the docker-compose agent, it comes as default on windows and mac Docker Engine. See official doc if needed [here](https://docs.docker.com/compose/install/) 
 
+### Create a new django project 🐍
+
+Make a new directory, and copy into it the 3 files from Docker-For-Django-Starter-Files. You structure should be :
+
+* MyDirectory
+ 
+  * Dockerfile
+  * docker-compose.yml
+  * requirements.txt ( optional : Specify a django version and other dependancies you might need )
+
+Then open a terminal in this directory and run :
+```{bash}
+docker-compose run web django-admin startproject <yourprojectname> .
+```
+  _Don't forget the point . at the end of the command_ 😉
+  
+  
+Congratulations as your new django project has been created, you can navigate the files through your favorite IDE ! 
+
+Now to get your test server up and running, on your port 8000 ( localhost:8000 ), run the following command :
+```{bash}
+docker-compose up
+```
+
+Here you go ! 🚀
+
+
+
+
+
 
 
