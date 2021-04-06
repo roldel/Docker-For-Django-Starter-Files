@@ -22,7 +22,7 @@ or
 Official documentation is well made [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
 - If operating on Windows, make sure to have WLS2 installed ( a prompt will let you know in due time, otherwise [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#step-4---download-the-linux-kernel-update-package) )
-- If operating on linux make sur to install the docker-compose agent, it comes as default on windows and mac Docker Engine.
+- If operating on linux make sur to install the docker-compose agent, it comes as default on windows and mac Docker Engine
 
 &nbsp;
 &nbsp;
