@@ -61,7 +61,7 @@ Here you go ! 🚀🚀🚀
 &nbsp;
 &nbsp;
 
-### Elif you want to create a new django project 🐍
+### Elif you want to dockerize an existing project 🐍
 &nbsp;
 
 Clone a repo from Github or use an existing local project.
