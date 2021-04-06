@@ -17,7 +17,7 @@ or
 &nbsp;
 ## Let's make it work ! Only 2 command lines required 🙏
 
-### Install Dokcer Engine (if not already)
+### Install Docker Engine (if not already)
 
 Official documentation is well made [https://docs.docker.com/engine/install/](https://docs.docker.com/engine/install/)
 
@@ -58,12 +58,13 @@ Here you go ! 🚀🚀🚀
 
 &nbsp;
 &nbsp;
-### If you want to create a new django project 🐍
+
+### Elif you want to create a new django project 🐍
 &nbsp;
 
 Clone a repo from Github or use an existing local project.
 
-From my Docker-For-Django-Starter-Files repo, copy the Dockerfile and docker-compose.yml, drop them into your project folder at manage.py level.
+From my Docker-For-Django-Starter-Files repo, copy the Dockerfile and docker-compose.yml into your project folder, at manage.py level.
 It sould look like this :
 
 * Myprojectname
@@ -76,7 +77,10 @@ It sould look like this :
   * Dockerfile ( !! Added file !! )
   * docker-compose.yml ( !! Added file !! )
   
+Now run the following bash terminal inside your project
+```{bash}
+docker-compose up
+```
+Docker will create the image, install the dependencies and start the development server on port 8000 ( localhost:8000)
 
-
-
-
+That's it ! 🚀🚀🚀
