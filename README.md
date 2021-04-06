@@ -56,11 +56,26 @@ docker-compose up
 
 Here you go ! 🚀🚀🚀
 
+&nbsp;
+&nbsp;
+### If you want to create a new django project 🐍
+&nbsp;
 
-## Coming next how to easily set up a django existing project with these docker files 
+Clone a repo from Github or use an existing local project.
 
+From my Docker-For-Django-Starter-Files repo, copy the Dockerfile and docker-compose.yml, drop them into your project folder at manage.py level.
+It sould look like this :
 
-
+* Myprojectname
+  * myprojectname  
+  * app1
+  * app2
+  * manage.py
+  * db.sqlite3
+  * requirements.txt  ( Please make sure you have the requirements.txt file in your folder )
+  * Dockerfile ( !! Added file !! )
+  * docker-compose.yml ( !! Added file !! )
+  
 
 
 
