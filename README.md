@@ -46,6 +46,9 @@ docker-compose up
 Here you go ! 🚀
 
 
+## Coming next how to easily set up a django existing project with these docker files 
+
+
 
 
 
