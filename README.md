@@ -38,7 +38,7 @@ Make a new directory, and copy into it the 3 files from Docker-For-Django-Starte
   * docker-compose.yml
   * requirements.txt 
   
-( optional : update requirements.txt with a specific django version and other dependencies you might need )
+( optional : update requirements.txt as required, default setting is django 3.2 only )
 
 Then open a terminal in this directory and run :
 ```{bash}
